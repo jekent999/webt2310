@@ -1,0 +1,184 @@
+/* Global Styles */
+
+body {
+    background-color: #CC94F2;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav,
+header,
+section {
+    background-color: #F1C4F2;
+    text-align: center;
+}
+
+/* Mobile Styles */
+
+#container {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #DFB6F6;
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+header {
+    padding: 20px;
+}
+
+section {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#multi_col {
+    background-color: #DFB6F6;
+}
+
+.col {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#lower_area {
+    background-color: #F1C4F2;
+    padding: 10px;
+}
+
+.column {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.column img {
+    width: 75%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 786px) {
+
+    nav {
+        padding: 20px 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    .col_text {
+        margin-top: 60px;
+    }
+
+    .column img {
+        width: 40%;
+    }
+
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    nav li a {
+        background-color: #CC94F2;
+    }
+
+    nav li a:hover {
+        border-bottom: black;
+    }
+
+    #container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .column img {
+        width: 75%;
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    img {
+        display: block;
+        box-shadow: 5px 5px 5px;
+    }
+
+
+
+
+}

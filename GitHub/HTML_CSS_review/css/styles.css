@@ -153,12 +153,13 @@ footer {
     }
 
     #container {
-        width: 50%;
+        width: 75%;
         margin: 0 auto;
     }
 
     #lower_area {
         display: flex;
+        text-align: center;
     }
 
     .column img {
@@ -176,6 +177,25 @@ footer {
     img {
         display: block;
         box-shadow: 5px 5px 5px;
+        width: 50%;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    aside {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+
     }
 
 

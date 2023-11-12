@@ -1,0 +1,50 @@
+#header_img {
+    background-image: url(../images/forestmsuhy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+}
+
+body {
+    background-color: #F2911B;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.row {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.icon {
+    color: black;
+}
+
+
+
+
+
+/* Classes */
+
+
+
+
+
+
+
+
+/* IDs */

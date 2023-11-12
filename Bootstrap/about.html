@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungus Amongus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.avif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="header_img" class="p-5 mb-4 bg-light rounded-3">
+            <nav class="navbar navbar-expand-lg bg-warning">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Species</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="facts.html">Network</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="contact.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mush-More
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://www.fieldandstream.com/story/survival/safest-mushrooms-to-forage-and-eat/">Non-toxic</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.britannica.com/story/7-of-the-worlds-most-poisonous-mushrooms">Toxic</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.cancer.gov/about-cancer/treatment/cam/patient/mushrooms-pdq">Medicinal</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid py-5">
+                <img id="header" class="d-block mx-auto" src="images/logo.jpeg" alt="group">
+                <a href="https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/">
+                    <button class="btn btn-warning rounded-1 mx-auto d-block mt-5" type="button">More
+                        Species</button></a>
+
+            </div>
+        </div>
+        <hr>
+
+
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-4">
+                    <h2>Poisonous</h2>
+                    <p>Many types of mushrooms are toxic to humans and animals. It is very difficult to tell which are
+                        poisonous or not. Don't ever eat mushrooms you find outside unless you have done research! Avoid
+                        mushrooms with white gills, a skirt, or a ring on the stem. Death cap mushrooms are one of the
+                        most deadly species on the planet.</p>
+                    <img class="img-fluid my-3 rounded-4" src="images/deathcap.jpg" alt="death cap">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h2>Edible</h2>
+                    <p>Non-poisonous mushrooms, are the fleshy, edible fruit bodies of that particular species of
+                        macrofungi. Many mushrooms are used as meat replacements, because of the similar consistency as
+                        beef or chicken, such as the oyster mushroom. They are high in vitamins B2, B3, B5, and are high
+                        in minerls like selenium, phosphorous, and potassium.</p>
+                    <img class="img-fluid my-3 rounded-4" src="images/oystermush.jpeg" alt="oyster mushrooms">
+                </div>
+                <div class="col-lg-4">
+                    <h2>Medicinal</h2>
+                    <p>Medicinal fungi contain metabolites, or can be induced to produce metabolites through
+                        biotechnology to develop prescription drugs. Many fungi have been clinically proven to help
+                        reduce anxiety and depression, such as the Reishi, Lion's Mane, and Cordyceps mushrooms.</p>
+                    <img class="img-fluid my-3 rounded-4" src="images/lionsmanemushy.jpg" alt="lions mane">
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+      
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-warning mx-auto mb-3 d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">click for info</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Do your research!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Do not eat any mushrooms you forage unless you have done your research! Avoid mushrooms with white gills because they often signify a poisonous type.</p>
+                    <img class="img-fluid my-3 rounded-4" src="images/chart.webp" alt="chart">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <h2 class="text-center">Death Cap</h2>
+            <img class="img-fluid my-3 rounded-4" src="images/deathcap1.jpg" alt="death cap">
+            <p>Amanita phalloides, commonly known as the death cap, is a deadly poisonous basidiomycete fungus, one of
+                many in the genus Amanita. Widely distributed across Europe, but introduced to other parts of the world
+                since the late twentieth century.
+                The death cap contains three main types of toxins: amatoxins, phallotoxins, and virotoxins; it is
+                unknown what function the toxins are meant to serve in nature. In humans, amatoxins prevent the
+                production of DNA, which leads to liver and kidney failure and, if untreated, coma and death.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <h2 class="text-center">Witches Butter</h2>
+            <img class="img-fluid my-3 rounded-4" src="images/witches_butter.jpg" alt="witches butter">
+            <p>Tremella mesenterica is a common jelly fungus in the family Tremellaceae of the Agaricomycotina. It is
+                most frequently found on dead but attached and on recently fallen branches and trees, especially beech,
+                oak, and alder.
+                Witches butter is an edible wild fungi. Nutritionally, it is made up of polysaccarides (carbohydrates)
+                and is being studied for it's immune boosting properties. If you get stuck out in the forest it's one of
+                the few edible mushrooms that can be eaten raw.</p>
+        </div>
+
+
+        <div class="col-lg-4">
+            <h2 class="text-center">Reishi</h2>
+            <img class="img-fluid my-3 rounded-4" src="images/reishi.jpg" alt="reishi">
+            <p>Lingzhi, Ganoderma sichuanense, also known as reishi or Ganoderma lingzhi is a polypore fungus native to
+                East Asia belonging to the genus Ganoderma. Its reddish brown varnished kidney-shaped cap with bands and
+                peripherally inserted stem gives it a distinct fan-like appearance. Reishi mushrooms have been found to
+                help improve the nerve growth and survival factors, which are important for maintaining brain health. In
+                addition, the compounds present in the Reishi mushroom may help to reduce the risk of neurodegenerative
+                disorders such as Alzheimer's disease.</p>
+        </div>
+    </div>
+
+
+    <hr>
+
+    
+    <div class="row">
+        <div class="col-lg-12 py-4 text-center">
+            <a href="https://www.tiktok.com/@fantasticfungifilm"><i class="fa-brands fa-tiktok fs-1 p-2"></i></a>
+            <a href="https://www.facebook.com/FungiFilm/"><i class="fa-brands fa-facebook fs-1 p-2"></i></a>
+            <a href="https://www.instagram.com/fantasticfungi/?hl=en"><i class="fa-brands fa-instagram fs-1 p-2"></i></a>
+            <a href="https://www.youtube.com/watch?v=bxABOiay6oA"><i class="fa-brands fa-youtube fs-1 p-2"></i></a>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <footer>&copy; Fungus Amongus 2023</footer>
+
+    </div>
+
+
+</body>
+
+</html>
